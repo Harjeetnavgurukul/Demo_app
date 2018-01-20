@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">screeming</string>
+    <string name="paragraph">
+        On your android phone, follow the given instructions in the link below to enable developer settings on your android phone.
+        The instructions are linked in the link below.
+        Hurray! you are a developer now!!
+    </string>
+</resources>

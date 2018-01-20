@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="421dp"
+        android:layout_marginStart="18dp"
+        android:src="@drawable/hart"
+        android:id="@+id/imageView"
+        />
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="99dp"
+        android:text="We need your"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/title_text_view"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@+id/title_text_view"
+        android:text="Love"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#E91E63"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:id="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/title_text_view"
+        android:layout_below="@+id/title_text_view"
+        android:text="(and some"
+        android:textSize="30sp"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_text_view"
+        android:layout_marginStart="14dp"
+        android:layout_toEndOf="@+id/textView3"
+        android:text="Laptops)"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:id="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="22dp"
+        android:text="Donate your old or sparelaptop to an"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView6"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_toEndOf="@+id/title_text_view"
+        android:text="underpriveleged girl"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:id="@+id/textView7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_below="@+id/textView7"
+        android:layout_marginStart="21dp"
+        android:text="who's been"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:id="@+id/textView8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_toEndOf="@+id/textView8"
+        android:text="denied an education,"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:id="@+id/textView9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_alignStart="@+id/textView4"
+        android:text="and give her the"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:id="@+id/textView16" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView9"
+        android:layout_toStartOf="@+id/textView5"
+        android:text="opportunity to learn software to"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:id="@+id/textView10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView10"
+        android:layout_alignBottom="@+id/textView10"
+        android:layout_alignEnd="@+id/textView7"
+        android:text="better her employability"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:id="@+id/textView11" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_below="@+id/textView11"
+        android:layout_marginStart="42dp"
+        android:text="and quality of life"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:id="@+id/textView12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView12"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="We'll arrange pickup at your convenience."
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:id="@+id/textView13" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView13"
+        android:layout_centerHorizontal="true"
+        android:text="Give us a call at +919958003242"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:id="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_below="@+id/textView14"
+        android:layout_marginTop="46dp"
+        android:text="Learn more about our mission at"
+        android:textColor="#000000"
+        android:textSize="13sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView15"
+        android:layout_alignEnd="@+id/textView16"
+        android:text="navgurukul.org"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:id="@+id/nav"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>
+
